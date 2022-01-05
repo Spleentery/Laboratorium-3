@@ -22,7 +22,7 @@ int main() {
         }
     }
     catch(const char*) {
-        cerr << "We caught an const char* exception.\nThe TEXT is NOT an integer :(\n" << text << endl;
+        cerr << "We caught an const char* exception. \nThe TEXT is NOT an integer :(\n" << text << endl;
     }
     return 0;
 }
